@@ -18,11 +18,10 @@ It includes Python scripts that interact with ONOS’s REST API to monitor flows
 ---
 
 # Environment Setup
-
 1. Install Docker
 
 If not already installed:
-```bash
+bash
 sudo apt update
 sudo apt install docker.io -y
 sudo systemctl start docker
