@@ -70,15 +70,15 @@ sudo python3 onos_triangle.py
 
 6. Output
 
-MININET CLI OUTPUT
+a)MININET CLI OUTPUT
 <img width="1280" height="800" alt="13" src="https://github.com/user-attachments/assets/4959a274-3355-42b9-9200-cf5394b14160" />
 
-ONOS WEB GUI SHOWING DEVICES CONNECTED IN MINIET 
+b)ONOS WEB GUI SHOWING DEVICES CONNECTED IN MINIET 
 <img width="1918" height="1078" alt="15" src="https://github.com/user-attachments/assets/5b1aecb0-e68d-4dc1-b2a7-61fb42156f01" />
 
-OUTPUT SHOWING LINK BREAK BETWEEN TWO DEVICES IN ONOS WEB GUI
+c)OUTPUT SHOWING LINK BREAK BETWEEN TWO DEVICES IN ONOS WEB GUI
 <img width="1918" height="1078" alt="link down onos gui" src="https://github.com/user-attachments/assets/1c1ba36d-da67-4e50-80ef-9605774eded8" />
 
-OUTPUT SHOWING REROUTING OF DEVICES 
+d)OUTPUT SHOWING REROUTING OF DEVICES 
 <img width="1918" height="1078" alt="python output" src="https://github.com/user-attachments/assets/04dd8225-10a0-4475-9faf-c0a767af3ffc" />
 
