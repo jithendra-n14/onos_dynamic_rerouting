@@ -47,7 +47,6 @@ sudo docker ps
 http://127.0.0.1:8181/onos/ui
 
 Login: onos
-
 Password :rocks
 <img width="1280" height="800" alt="7" src="https://github.com/user-attachments/assets/82814948-a315-40d6-8eda-c97855e3bf75" />
 
