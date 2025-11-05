@@ -18,6 +18,7 @@ It includes Python scripts that interact with ONOS’s REST API to monitor flows
 ---
 
 # Environment Setup
+---
 1. Install Docker
 
 If not already installed:
@@ -68,3 +69,6 @@ sudo python3 onos_triangle.py
 
 ONOS WEB GUI SHOWING DEVICES CONNECTED IN MINIET 
 <img width="1918" height="1078" alt="15" src="https://github.com/user-attachments/assets/5b1aecb0-e68d-4dc1-b2a7-61fb42156f01" />
+
+OUTPUT SHOWING LINK BREAK BETWEEN TWO DEVICES IN ONOS WEB GUI
+<img width="1918" height="1078" alt="link down onos gui" src="https://github.com/user-attachments/assets/1c1ba36d-da67-4e50-80ef-9605774eded8" />
