@@ -1,15 +1,15 @@
 # ONOS Dynamic Network Rerouting with Mininet
 
-This project demonstrates **dynamic flow rerouting** and **link failure monitoring** using the **ONOS SDN controller** (version 2.1.0) and **Mininet**.  
+This project demonstrates **dynamic flow rerouting** and **link failure monitoring** using the **ONOS SDN Controller** (version 2.1.0) and **Mininet**.  
 It includes Python scripts that interact with ONOS’s REST API to monitor flows, detect congestion or link failures, and automatically reroute traffic through alternate network paths.
 
 ---
 
 ## 🚀 Project Overview
 
-- **Controller:** ONOS 2.1.0 (running in Docker)
-- **Network Emulator:** Mininet (from official GitHub repo)
-- **APIs Used:** ONOS REST API (`onos/v1/devices`, `onos/v1/links`, `onos/v1/flows`)
+- **Controller:** ONOS 2.1.0 (Docker)
+- **Network Emulator:** Mininet (GitHub build)
+- **APIs Used:** ONOS REST API (`/onos/v1/devices`, `/onos/v1/links`, `/onos/v1/flows`)
 - **Scripts:**
   - `onos_stats.py` — Retrieves live ONOS network statistics.
   - `dynamic_reroute.py` — Detects flow congestion and reroutes dynamically.
@@ -41,12 +41,14 @@ sudo docker run -d \
 
 Check if ONOS is running:
 sudo docker ps
+<img width="1280" height="800" alt="5" src="https://github.com/user-attachments/assets/97b5ba03-c8e2-40f9-8637-911ee805848f" />
 
-Access the ONOS GUI:
+3.Access the ONOS GUI:
 http://127.0.0.1:8181/onos/ui
 
 Login: onos
 Password :rocks
+<img width="1280" height="800" alt="7" src="https://github.com/user-attachments/assets/82814948-a315-40d6-8eda-c97855e3bf75" />
 
 4. Install Mininet
 Clone and install Mininet from GitHub:
@@ -56,6 +58,7 @@ sudo ./util/install.sh -a
 
 Verify:
 sudo mn --test pingall
+<img width="1452" height="917" alt="14" src="https://github.com/user-attachments/assets/6e879305-eee7-4e61-8799-26fcc9d317f1" />
 
 5. Connect Mininet to ONOS
 Start Mininet and connect it to ONOS:
