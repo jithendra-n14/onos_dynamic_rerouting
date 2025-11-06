@@ -19,7 +19,7 @@ It includes Python scripts that interact with ONOS’s REST API to monitor flows
 
 # Environment Setup
 ---
-1. Install Docker
+1.Install Docker
 
 If not already installed:
 bash
@@ -28,7 +28,7 @@ sudo apt install docker.io -y
 sudo systemctl start docker
 sudo systemctl enable docker
 
-2. Run ONOS 2.1.0 in Docker
+2.Run ONOS 2.1.0 in Docker
 Pull and start the ONOS container:
 sudo docker pull onosproject/onos:2.1.0
 
@@ -50,7 +50,7 @@ Login: onos
 Password :rocks
 <img width="1280" height="800" alt="7" src="https://github.com/user-attachments/assets/82814948-a315-40d6-8eda-c97855e3bf75" />
 
-4. Install Mininet
+4.Install Mininet
 Clone and install Mininet from GitHub:
 git clone https://github.com/mininet/mininet.git
 cd mininet
@@ -60,7 +60,7 @@ Verify:
 sudo mn --test pingall
 <img width="1452" height="917" alt="14" src="https://github.com/user-attachments/assets/6e879305-eee7-4e61-8799-26fcc9d317f1" />
 
-5. Connect Mininet to ONOS
+5.Connect Mininet to ONOS
 Start Mininet and connect it to ONOS:
 
 sudo mn --controller=remote,ip=127.0.0.1,port=6653 --topo tree,2
@@ -68,7 +68,7 @@ sudo mn --controller=remote,ip=127.0.0.1,port=6653 --topo tree,2
 Alternatively, you can launch your custom topology using:
 sudo python3 onos_triangle.py
 
-6. Output
+6.Output
 
 a)MININET CLI OUTPUT
 <img width="1280" height="800" alt="13" src="https://github.com/user-attachments/assets/4959a274-3355-42b9-9200-cf5394b14160" />
@@ -81,4 +81,11 @@ c)OUTPUT SHOWING LINK BREAK BETWEEN TWO DEVICES IN ONOS WEB GUI
 
 d)OUTPUT SHOWING FLOW REROUTING OF DEVICES 
 <img width="1918" height="1078" alt="python output" src="https://github.com/user-attachments/assets/04dd8225-10a0-4475-9faf-c0a767af3ffc" />
+
+e)OUTPUT SHOWING RERUOUTING OF FLOWS 
+<img width="1918" height="1078" alt="linkup pthon output" src="https://github.com/user-attachments/assets/dbf9bca6-c13d-46c7-937e-78ebad7c50e3" />
+
+f)ONOS CLI 
+<img width="1918" height="1078" alt="karaf cli" src="https://github.com/user-attachments/assets/00e35d64-75a1-450e-a1ef-ddcbbdbcdf8a" />
+
 
